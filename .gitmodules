@@ -13,3 +13,9 @@
 [submodule "code/hpc-multibench"]
 	path = code/hpc-multibench
 	url = https://github.com/EdmundGoodman/hpc-multibench
+[submodule "code/helper-scripts/miniapp-selection"]
+	path = code/helper-scripts/miniapp-selection
+	url = https://github.com/EdmundGoodman/miniapp-selection
+[submodule "code/helper-scripts/openmp-mpi-nondeterminism"]
+	path = code/helper-scripts/openmp-mpi-nondeterminism
+	url = https://github.com/EdmundGoodman/openmp-mpi-nondeterminism
