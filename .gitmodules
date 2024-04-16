@@ -10,3 +10,6 @@
 [submodule "CS310-specification"]
 	path = specification
 	url = https://github.com/EdmundGoodman/CS310-specification
+[submodule "code/hpc-multibench"]
+	path = code/hpc-multibench
+	url = https://github.com/EdmundGoodman/hpc-multibench

@@ -1,7 +1,7 @@
 # Assessing the suitability of Rust for performant and productive implementations of HPC codebases
 
 A third year project in partial requirement for a Computer Science BSc at the
-University of Warwick, supervised by Dr Richard Kirk.
+University of Warwick, supervised by [Dr Richard Kirk](https://warwick.ac.uk/fac/sci/dcs/people/richard_kirk/).
 
 ## Abstract
 
@@ -33,3 +33,13 @@ University of Warwick, supervised by Dr Richard Kirk.
 > productivity such as its compiler guarantees of memory and thread safety.
   
 **Keywords:** *High-Performance Computing, Parallel Computing, Mini-application, Mantevo, HPCCG, Rust, C++, OpenMP, Rayon, MPI*  
+
+## Download
+
+This is a meta-repository of the written and software deliverables for this
+project, and as such contains nested submodules. To clone a copy containing
+all nested submodules, consider running the following command:
+
+```bash
+git clone --recurse-submodules -j8 https://github.com/EdmundGoodman/rust-in-hpc
+```
