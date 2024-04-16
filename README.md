@@ -43,3 +43,23 @@ all nested submodules, consider running the following command:
 ```bash
 git clone --recurse-submodules -j8 https://github.com/EdmundGoodman/rust-in-hpc
 ```
+
+## Directory structure
+
+Written project deliverables are typeset in LaTeX, and can be found in the
+submodule directories `dissertation/`, `presentation/`, `progress-report/`, and
+`specification/`
+
+Software components are contained in the `code/` directory, which has four
+subdirectories:
+
+- `helper-scripts/`, software written by the author to acheive corollary goals
+  such as aggregating and selecting mini-apps, or proofs-of-concept for data
+  races in OpenMP and MPI
+- `hpc-multibench/`, the main software component of the project, which contains
+  many nested subdirectories
+- `hpccg-rs/`, a softlink to within `hpc-multibench/` containing the Rust
+  translations of the HPCCG mini-app
+- `open-source/`, forks of software projects which were not written by me, but I
+  have interacted with in the form of pull requests or issues in the course of
+  the project. These are not claimed to be my work.

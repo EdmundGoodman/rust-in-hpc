@@ -19,3 +19,12 @@
 [submodule "code/helper-scripts/openmp-mpi-nondeterminism"]
 	path = code/helper-scripts/openmp-mpi-nondeterminism
 	url = https://github.com/EdmundGoodman/openmp-mpi-nondeterminism
+[submodule "code/open-source/autocxx"]
+	path = code/open-source/autocxx
+	url = https://github.com/EdmundGoodman/autocxx
+[submodule "code/open-source/HPCCG"]
+	path = code/open-source/HPCCG
+	url = https://github.com/EdmundGoodman/HPCCG
+[submodule "code/open-source/rsmpi"]
+	path = code/open-source/rsmpi
+	url = https://github.com/EdmundGoodman/rsmpi
