@@ -1,7 +1,7 @@
 # Assessing the suitability of Rust for performant and productive implementations of HPC codebases
 
 A third year project in partial requirement for a Computer Science BSc at the
-University of Warwick.
+University of Warwick, supervised by Dr Richard Kirk.
 
 ## Abstract
 
